@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #000;
-    color: #fff;
+    background: #000000;
+    color: #ffffff;
 }
 
 header {
@@ -23,7 +23,7 @@ header img {
 
 nav a {
     margin-left: 20px;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -46,11 +46,16 @@ section {
 .btn {
     display: inline-block;
     padding: 12px 28px;
-    background: #fff;
-    color: #000;
+    background: #ffffff;
+    color: #000000;
     text-decoration: none;
     border-radius: 4px;
     margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e5e5e5;
 }
 
 .grid {
@@ -60,10 +65,10 @@ section {
 }
 
 .card {
-    background: #111;
+    background: #111111;
     padding: 25px;
     border-radius: 8px;
-    border: 1px solid #222;
+    border: 1px solid #222222;
 }
 
 .proyectos img {
@@ -76,9 +81,9 @@ form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    background: #111;
-    border: 1px solid #333;
-    color: #fff;
+    background: #111111;
+    border: 1px solid #333333;
+    color: #ffffff;
 }
 
 form textarea {
@@ -88,5 +93,5 @@ form textarea {
 footer {
     text-align: center;
     padding: 40px;
-    border-top: 1px solid #222;
+    border-top: 1px solid #222222;
 }
